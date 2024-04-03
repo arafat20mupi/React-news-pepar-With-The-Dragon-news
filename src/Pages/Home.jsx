@@ -1,3 +1,4 @@
+import BreakingNews from "./Shared/BreakingNews";
 import Header from "./Shared/Header";
 import LeftSideNav from "./Shared/LeftSideNav";
 import Navber from "./Shared/Navber";
@@ -7,6 +8,7 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
+            <BreakingNews></BreakingNews>
             <Navber></Navber>
             <div className="grid grid-cols-1 md:grid-cols-4 ">
                 <div><LeftSideNav></LeftSideNav> </div>
